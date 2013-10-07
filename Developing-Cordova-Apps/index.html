@@ -33,7 +33,12 @@ under the License.
         <title>Hello Cordova Application</title>
     </head>
     <body>
-        <div id="home-view" data-id="home-view" data-role="view">
+        <div id="home-view" data-id="home-view" data-role="view" data-title="Home">
+            <header data-role="header">
+                <div data-role="navbar">
+                    <span data-role="view-title"></span>
+                </div>
+            </header>
             Home<br/>
             <a href="#other-view">Go to Other</a>
 
